@@ -67,3 +67,8 @@ def article_update(request, id):
         article_post_form = ArticlePostForm()
         context = {'article': article, 'article_post_form': article_post_form }
         return render(request, 'article/update.html', context)
+
+def photos(request):
+    articles = ArticlePost.objects.all()
+    context = {'articles': articles}
+    return render(request, 'article/tempblog.html', context)
