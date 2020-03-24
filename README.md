@@ -1,10 +1,10 @@
 # Django-Blog
 This is a project to make a personal blog based on Django web frame.
 
-#Contents
+# Contents
 
-###Articles
+### Articles
 
-###Photos
+### Photos
 
-###Videos
+### Videos
